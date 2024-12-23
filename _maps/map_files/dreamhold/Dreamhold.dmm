@@ -33253,6 +33253,13 @@
 /area/rogue/outdoors/rtfield{
 	first_time_text = null
 	})
+"rQA" = (
+/obj/structure/fluff/traveltile{
+	aportalid = "lichdungeonout";
+	aportalgoesto = "lichdungeon"
+	},
+/turf/open/water/cleanshallow,
+/area/rogue/outdoors/caves)
 "rQI" = (
 /obj/structure/flora/grass/jungle{
 	icon_state = "grassa2"
@@ -89856,8 +89863,8 @@ aoy
 sPc
 sPc
 tmk
-cgq
-nVt
+rxm
+rxm
 nVt
 nVt
 cgq
@@ -90058,8 +90065,8 @@ mDX
 lyF
 tmk
 tmk
-lyF
-cgq
+rQA
+gEX
 nVt
 nVt
 nVt
@@ -90260,8 +90267,8 @@ sPc
 tmk
 sPc
 tmk
-lyF
-nVt
+rQA
+gEX
 cgq
 cgq
 cgq
@@ -90462,8 +90469,8 @@ tmk
 tmk
 tmk
 tmk
-cgq
-nVt
+rQA
+gEX
 nVt
 nVt
 nVt
@@ -90664,8 +90671,8 @@ sPc
 tmk
 tmk
 cgq
-nVt
-nVt
+rxm
+rxm
 nVt
 cgq
 cgq

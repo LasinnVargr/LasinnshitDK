@@ -1639,7 +1639,6 @@
 /area/rogue/under/cavewet)
 "rG" = (
 /turf/closed/wall/mineral/rogue/pipe{
-	dir = 2;
 	icon_state = "iron_line"
 	},
 /area/rogue/under/cavewet)
@@ -3451,7 +3450,7 @@
 	})
 "Lg" = (
 /obj/effect/mist,
-/turf/open/floor/rogue/naturalstone,
+/turf/closed/mineral/rogue/bedrock,
 /area/rogue/under/cavewet)
 "Li" = (
 /obj/structure/table/church,
@@ -4434,6 +4433,10 @@
 "Wj" = (
 /turf/closed/wall/mineral/rogue/stonebrick,
 /area/rogue/under/cavewet)
+"Wm" = (
+/obj/structure/flora/roguetree/burnt,
+/turf/closed/mineral/rogue/bedrock,
+/area/rogue/under/cavewet)
 "Wo" = (
 /obj/structure/fluff/walldeco/chains{
 	icon_state = "chains7"
@@ -4792,13 +4795,6 @@ tG
 tG
 tG
 tG
-yR
-yR
-Eo
-Qm
-Qm
-tG
-Gr
 tG
 tG
 tG
@@ -4814,110 +4810,117 @@ tG
 tG
 tG
 tG
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 "}
 (2,1,1) = {"
 tG
@@ -5049,7 +5052,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (3,1,1) = {"
 tG
@@ -5181,7 +5184,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (4,1,1) = {"
 tG
@@ -5313,7 +5316,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (5,1,1) = {"
 Qm
@@ -5445,7 +5448,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (6,1,1) = {"
 Qm
@@ -5577,7 +5580,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (7,1,1) = {"
 Qm
@@ -5709,7 +5712,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (8,1,1) = {"
 fg
@@ -5841,7 +5844,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (9,1,1) = {"
 aU
@@ -5973,7 +5976,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (10,1,1) = {"
 yR
@@ -6105,7 +6108,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (11,1,1) = {"
 tG
@@ -6237,7 +6240,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (12,1,1) = {"
 tG
@@ -6369,7 +6372,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (13,1,1) = {"
 tG
@@ -6501,7 +6504,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (14,1,1) = {"
 tG
@@ -6633,7 +6636,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (15,1,1) = {"
 tG
@@ -6765,7 +6768,7 @@ Qm
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (16,1,1) = {"
 tG
@@ -6897,7 +6900,7 @@ Qm
 Qm
 Qm
 Gr
-Gr
+tG
 "}
 (17,1,1) = {"
 tG
@@ -7029,7 +7032,7 @@ Qm
 Qm
 Qm
 Gr
-Gr
+tG
 "}
 (18,1,1) = {"
 tG
@@ -7161,7 +7164,7 @@ Oq
 Qm
 Qm
 Qm
-Gr
+tG
 "}
 (19,1,1) = {"
 tG
@@ -7293,7 +7296,7 @@ Oq
 Oq
 Qm
 Qm
-Gr
+tG
 "}
 (20,1,1) = {"
 tG
@@ -7425,7 +7428,7 @@ Oq
 Oq
 Qm
 Qm
-Gr
+tG
 "}
 (21,1,1) = {"
 tG
@@ -7557,7 +7560,7 @@ Oq
 Oq
 Qm
 Gr
-Gr
+tG
 "}
 (22,1,1) = {"
 tG
@@ -7689,7 +7692,7 @@ Oq
 Oq
 Qm
 Gr
-Gr
+tG
 "}
 (23,1,1) = {"
 tG
@@ -7821,7 +7824,7 @@ Oq
 Oq
 Gr
 Gr
-Gr
+tG
 "}
 (24,1,1) = {"
 tG
@@ -7953,7 +7956,7 @@ Oq
 Oq
 Gr
 Gr
-Gr
+tG
 "}
 (25,1,1) = {"
 tG
@@ -8085,7 +8088,7 @@ Oq
 Oq
 Gr
 Gr
-Gr
+tG
 "}
 (26,1,1) = {"
 tG
@@ -8217,7 +8220,7 @@ Oq
 Oq
 Gr
 Gr
-Gr
+tG
 "}
 (27,1,1) = {"
 tG
@@ -8349,7 +8352,7 @@ Oq
 Oq
 Gr
 Gr
-Gr
+tG
 "}
 (28,1,1) = {"
 tG
@@ -8481,7 +8484,7 @@ Oq
 Oq
 Gr
 Gr
-Gr
+tG
 "}
 (29,1,1) = {"
 tG
@@ -8613,7 +8616,7 @@ Oq
 Oq
 Gr
 Gr
-Gr
+tG
 "}
 (30,1,1) = {"
 tG
@@ -8745,7 +8748,7 @@ Oq
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (31,1,1) = {"
 tG
@@ -8877,7 +8880,7 @@ Oq
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (32,1,1) = {"
 tG
@@ -9009,7 +9012,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (33,1,1) = {"
 tG
@@ -9141,10 +9144,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (34,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -9273,10 +9276,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (35,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -9405,10 +9408,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (36,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -9537,10 +9540,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (37,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -9669,10 +9672,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (38,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -9801,10 +9804,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (39,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -9933,10 +9936,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (40,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -10065,10 +10068,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (41,1,1) = {"
-VG
+Wm
 VG
 Gr
 Gr
@@ -10197,7 +10200,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (42,1,1) = {"
 Ay
@@ -10329,7 +10332,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (43,1,1) = {"
 Ay
@@ -10461,7 +10464,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (44,1,1) = {"
 Ay
@@ -10593,7 +10596,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (45,1,1) = {"
 Ay
@@ -10725,7 +10728,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (46,1,1) = {"
 Ay
@@ -10857,7 +10860,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (47,1,1) = {"
 Ay
@@ -10989,7 +10992,7 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (48,1,1) = {"
 Ay
@@ -11121,10 +11124,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (49,1,1) = {"
-VG
+Wm
 VG
 Gr
 Gr
@@ -11253,10 +11256,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (50,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -11385,10 +11388,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (51,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -11517,10 +11520,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (52,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -11649,10 +11652,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (53,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -11781,10 +11784,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (54,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -11913,10 +11916,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (55,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -12045,10 +12048,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (56,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -12177,10 +12180,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (57,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -12309,10 +12312,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (58,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -12441,10 +12444,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (59,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -12573,10 +12576,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (60,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -12705,10 +12708,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (61,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -12837,10 +12840,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (62,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -12969,10 +12972,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (63,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -13101,10 +13104,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (64,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -13233,10 +13236,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (65,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -13365,10 +13368,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (66,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Ay
@@ -13497,10 +13500,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (67,1,1) = {"
-Gr
+tG
 Gr
 Ay
 Ay
@@ -13629,10 +13632,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (68,1,1) = {"
-Gr
+tG
 Gr
 Ay
 Ay
@@ -13761,10 +13764,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (69,1,1) = {"
-Gr
+tG
 Ay
 Ay
 Ay
@@ -13893,10 +13896,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (70,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -14025,10 +14028,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (71,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -14157,10 +14160,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (72,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -14289,10 +14292,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (73,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -14421,10 +14424,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (74,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -14553,10 +14556,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (75,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -14685,10 +14688,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (76,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -14817,10 +14820,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (77,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -14949,10 +14952,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (78,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -15081,10 +15084,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (79,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -15213,10 +15216,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (80,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -15345,10 +15348,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (81,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -15477,10 +15480,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (82,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -15609,10 +15612,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (83,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -15741,10 +15744,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (84,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -15873,10 +15876,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (85,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -16005,10 +16008,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (86,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -16137,10 +16140,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (87,1,1) = {"
-Gr
+tG
 Ay
 Ay
 FI
@@ -16269,10 +16272,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (88,1,1) = {"
-Gr
+tG
 Ay
 Ay
 Ay
@@ -16401,10 +16404,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (89,1,1) = {"
-Gr
+tG
 Ay
 Ay
 Ay
@@ -16533,10 +16536,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (90,1,1) = {"
-Gr
+tG
 Ay
 Ay
 Ay
@@ -16665,10 +16668,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (91,1,1) = {"
-Gr
+tG
 Ay
 Ay
 Ay
@@ -16797,10 +16800,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (92,1,1) = {"
-Gr
+tG
 Ay
 Ay
 Ay
@@ -16929,10 +16932,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (93,1,1) = {"
-Gr
+tG
 Ay
 Ay
 Ay
@@ -17061,10 +17064,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (94,1,1) = {"
-Gr
+tG
 Ay
 Ay
 Ay
@@ -17193,10 +17196,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (95,1,1) = {"
-Gr
+tG
 Ay
 Ay
 Ay
@@ -17325,10 +17328,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (96,1,1) = {"
-Gr
+tG
 Ay
 Ay
 Ay
@@ -17457,10 +17460,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (97,1,1) = {"
-Gr
+tG
 Gr
 Ay
 Ay
@@ -17589,10 +17592,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (98,1,1) = {"
-Gr
+tG
 Gr
 Ay
 Ay
@@ -17721,10 +17724,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (99,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Ay
@@ -17853,10 +17856,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (100,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Ay
@@ -17985,10 +17988,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (101,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Ay
@@ -18117,10 +18120,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (102,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -18249,10 +18252,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (103,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -18381,10 +18384,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (104,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -18513,10 +18516,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (105,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -18645,10 +18648,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (106,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -18777,10 +18780,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (107,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -18909,10 +18912,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (108,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -19041,10 +19044,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (109,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -19173,10 +19176,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (110,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -19305,10 +19308,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (111,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -19437,10 +19440,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (112,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -19569,10 +19572,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (113,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -19701,10 +19704,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (114,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -19833,10 +19836,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (115,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -19965,10 +19968,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (116,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -20097,10 +20100,10 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (117,1,1) = {"
-Gr
+tG
 Gr
 Gr
 Gr
@@ -20229,139 +20232,139 @@ Gr
 Gr
 Gr
 Gr
-Gr
+tG
 "}
 (118,1,1) = {"
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Ay
-Ay
-Gr
-Gr
-Gr
-Gr
-Gr
-Ay
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 "}
 
 (1,1,2) = {"
@@ -25381,7 +25384,7 @@ jX
 jX
 "}
 (39,1,2) = {"
-jX
+tG
 jX
 jX
 jX
@@ -25513,7 +25516,7 @@ jX
 jX
 "}
 (40,1,2) = {"
-jX
+tG
 jX
 jX
 jX
@@ -25645,7 +25648,7 @@ jX
 jX
 "}
 (41,1,2) = {"
-jX
+tG
 jX
 jX
 jX
@@ -25777,7 +25780,7 @@ jX
 jX
 "}
 (42,1,2) = {"
-Ay
+tG
 Ay
 jX
 jX
@@ -25909,7 +25912,7 @@ jX
 jX
 "}
 (43,1,2) = {"
-Ay
+tG
 VG
 Qm
 Qm
@@ -26437,7 +26440,7 @@ jX
 jX
 "}
 (47,1,2) = {"
-Ay
+tG
 VG
 VG
 jX
@@ -26569,7 +26572,7 @@ jX
 jX
 "}
 (48,1,2) = {"
-Ay
+tG
 Ay
 jX
 jX
@@ -26701,7 +26704,7 @@ jX
 jX
 "}
 (49,1,2) = {"
-jX
+tG
 jX
 jX
 jX
@@ -26833,7 +26836,7 @@ jX
 jX
 "}
 (50,1,2) = {"
-jX
+tG
 jX
 jX
 jX
@@ -26965,7 +26968,7 @@ jX
 jX
 "}
 (51,1,2) = {"
-jX
+tG
 jX
 jX
 jX
@@ -27097,7 +27100,7 @@ jX
 jX
 "}
 (52,1,2) = {"
-jX
+tG
 jX
 jX
 jX
