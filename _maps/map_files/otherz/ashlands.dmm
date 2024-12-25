@@ -622,6 +622,13 @@
 	first_time_text = "Underkeep";
 	name = "Underkeep"
 	})
+"hp" = (
+/obj/structure/fluff/traveltile/underdark{
+	aportalgoesto = "ffin12";
+	aportalid = "ffout12"
+	},
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/under/cavewet)
 "hr" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4;
@@ -2300,6 +2307,13 @@
 	first_time_text = "Underkeep";
 	name = "Underkeep"
 	})
+"yh" = (
+/obj/structure/fluff/traveltile/underdark{
+	aportalgoesto = "ffin11";
+	aportalid = "ffout11"
+	},
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/under/cavewet)
 "ym" = (
 /obj/structure/roguewindow/stained/zizo,
 /turf/open/floor/rogue/grass,
@@ -17836,7 +17850,7 @@ dY
 aU
 LC
 LC
-Gr
+TO
 Gr
 Gr
 Gr
@@ -18099,7 +18113,7 @@ fg
 aU
 LC
 Qm
-Gr
+TO
 Gr
 Ay
 Gr
@@ -19042,8 +19056,8 @@ Gr
 Gr
 Gr
 Gr
-Gr
-Gr
+LC
+LC
 tG
 "}
 (109,1,1) = {"
@@ -19171,11 +19185,11 @@ Gr
 Gr
 Gr
 Gr
-Gr
-Gr
-Gr
-Gr
-Gr
+LC
+LC
+LC
+yR
+tG
 tG
 "}
 (110,1,1) = {"
@@ -19280,6 +19294,7 @@ yR
 yR
 aU
 LC
+TO
 Gr
 Gr
 Gr
@@ -19300,14 +19315,13 @@ Gr
 Gr
 Gr
 Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
+LC
+LC
+LC
+LC
+yR
+yR
+yR
 tG
 "}
 (111,1,1) = {"
@@ -19433,13 +19447,13 @@ Gr
 Gr
 Gr
 Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
+LC
+LC
+LC
+LC
+yR
+yR
+yR
 tG
 "}
 (112,1,1) = {"
@@ -19543,7 +19557,7 @@ yR
 yR
 LC
 Qm
-Gr
+TO
 Gr
 Gr
 Ay
@@ -19564,14 +19578,14 @@ Gr
 Gr
 Gr
 Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
+LC
+LC
+RK
+Cy
+RK
+XY
+yR
+yR
 tG
 "}
 (113,1,1) = {"
@@ -19673,6 +19687,7 @@ yR
 LC
 LB
 Qm
+TO
 Gr
 Gr
 Gr
@@ -19695,15 +19710,14 @@ Gr
 Gr
 Gr
 Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
+LC
+LC
+RK
+fp
+yR
+XY
+yR
+yR
 tG
 "}
 (114,1,1) = {"
@@ -19804,11 +19818,7 @@ LC
 LC
 Qm
 Qm
-Gr
-Gr
-Gr
-Gr
-Ay
+TO
 Gr
 Gr
 Gr
@@ -19816,6 +19826,7 @@ Ay
 Gr
 Gr
 Gr
+Ay
 Gr
 Gr
 Gr
@@ -19831,11 +19842,14 @@ Gr
 Gr
 Gr
 Gr
-Gr
-Gr
-Gr
-Gr
-Gr
+LC
+LC
+RK
+ZJ
+yR
+mX
+yR
+yR
 tG
 "}
 (115,1,1) = {"
@@ -19960,14 +19974,14 @@ Gr
 Gr
 Gr
 Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
+LC
+LC
+RK
+Pn
+fp
+XY
+yR
+yR
 tG
 "}
 (116,1,1) = {"
@@ -20092,14 +20106,14 @@ Gr
 Gr
 Gr
 Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
+LC
+LC
+RK
+Cy
+RK
+XY
+yR
+yR
 tG
 "}
 (117,1,1) = {"
@@ -20225,13 +20239,13 @@ Gr
 Gr
 Gr
 Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
-Gr
+LC
+LC
+LC
+tG
+tG
+yh
+hp
 tG
 "}
 (118,1,1) = {"

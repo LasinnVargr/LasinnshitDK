@@ -393,7 +393,7 @@ GLOBAL_LIST_EMPTY(asset_datums)
 //DEFINITIONS FOR ASSET DATUMS START HERE.
 
 /datum/asset/simple/tgui
-/*	assets = list(
+	assets = list(
 		// tgui
 		"tgui.css" = 'tgui/assets/tgui.css',
 		"tgui.js" = 'tgui/assets/tgui.js',
@@ -406,7 +406,7 @@ GLOBAL_LIST_EMPTY(asset_datums)
 		"shim-ie8.js" = 'tgui-next/packages/tgui/public/shim-ie8.js',
 		"shim-dom4.js" = 'tgui-next/packages/tgui/public/shim-dom4.js',
 		"shim-css-om.js" = 'tgui-next/packages/tgui/public/shim-css-om.js',
-	)*/
+	)
 
 /datum/asset/group/tgui
 	children = list(
@@ -415,7 +415,7 @@ GLOBAL_LIST_EMPTY(asset_datums)
 	)
 
 /datum/asset/simple/headers
-/*	assets = list(
+	assets = list(
 		"alarm_green.gif" 			= 'icons/program_icons/alarm_green.gif',
 		"alarm_red.gif" 			= 'icons/program_icons/alarm_red.gif',
 		"batt_5.gif" 				= 'icons/program_icons/batt_5.gif',
@@ -442,11 +442,11 @@ GLOBAL_LIST_EMPTY(asset_datums)
 		"smmon_4.gif" 				= 'icons/program_icons/smmon_4.gif',
 		"smmon_5.gif" 				= 'icons/program_icons/smmon_5.gif',
 		"smmon_6.gif" 				= 'icons/program_icons/smmon_6.gif'
-	)*/
+	)
 
 /datum/asset/spritesheet/simple/pda
 	name = "pda"
-/*	assets = list(
+	assets = list(
 		"atmos"			= 'icons/pda_icons/pda_atmos.png',
 		"back"			= 'icons/pda_icons/pda_back.png',
 		"bell"			= 'icons/pda_icons/pda_bell.png',
@@ -475,11 +475,11 @@ GLOBAL_LIST_EMPTY(asset_datums)
 		"status"		= 'icons/pda_icons/pda_status.png',
 		"dronephone"	= 'icons/pda_icons/pda_dronephone.png',
 		"emoji"			= 'icons/pda_icons/pda_emoji.png'
-	)*/
+	)
 
 /datum/asset/spritesheet/simple/paper
 	name = "paper"
-/*	assets = list(
+	assets = list(
 		"stamp-clown" = 'icons/stamp_icons/large_stamp-clown.png',
 		"stamp-deny" = 'icons/stamp_icons/large_stamp-deny.png',
 		"stamp-ok" = 'icons/stamp_icons/large_stamp-ok.png',
@@ -491,13 +491,13 @@ GLOBAL_LIST_EMPTY(asset_datums)
 		"stamp-cap" = 'icons/stamp_icons/large_stamp-cap.png',
 		"stamp-qm" = 'icons/stamp_icons/large_stamp-qm.png',
 		"stamp-law" = 'icons/stamp_icons/large_stamp-law.png'
-	)*/
+	)
 
 
 /datum/asset/simple/IRV
-/*	assets = list(
+	assets = list(
 		"jquery-ui.custom-core-widgit-mouse-sortable-min.js" = 'html/IRV/jquery-ui.custom-core-widgit-mouse-sortable-min.js',
-	)*/
+	)
 
 /datum/asset/group/IRV
 	children = list(
@@ -506,7 +506,7 @@ GLOBAL_LIST_EMPTY(asset_datums)
 	)
 
 /datum/asset/simple/changelog
-/*	assets = list(
+	assets = list(
 		"88x31.png" = 'html/88x31.png',
 		"bug-minus.png" = 'html/bug-minus.png',
 		"cross-circle.png" = 'html/cross-circle.png',
@@ -526,7 +526,7 @@ GLOBAL_LIST_EMPTY(asset_datums)
 		"ban.png" = 'html/ban.png',
 		"chrome-wrench.png" = 'html/chrome-wrench.png',
 		"changelog.css" = 'html/changelog.css'
-	)*/
+	)
 
 /datum/asset/group/goonchat
 	children = list(
@@ -539,29 +539,29 @@ GLOBAL_LIST_EMPTY(asset_datums)
 
 /datum/asset/simple/jquery
 	verify = FALSE
-/*	assets = list(
+	assets = list(
 		"jquery.min.js"            = 'code/modules/goonchat/browserassets/js/jquery.min.js',
-	)*/
+	)
 
 /datum/asset/simple/goonchat
 	verify = FALSE
-/*	assets = list(
+	assets = list(
 		"json2.min.js"             = 'code/modules/goonchat/browserassets/js/json2.min.js',
 		"browserOutput.js"         = 'code/modules/goonchat/browserassets/js/browserOutput.js',
 		"browserOutput.css"	       = 'code/modules/goonchat/browserassets/css/browserOutput.css',
 		"browserOutput_white.css"	      = 'code/modules/goonchat/browserassets/css/browserOutput.css',
-	)*/
+	)
 
 /datum/asset/simple/fontawesome
 	verify = FALSE
-/*	assets = list(
+	assets = list(
 		"fa-regular-400.eot"  = 'html/font-awesome/webfonts/fa-regular-400.eot',
 		"fa-regular-400.woff" = 'html/font-awesome/webfonts/fa-regular-400.woff',
 		"fa-solid-900.eot"    = 'html/font-awesome/webfonts/fa-solid-900.eot',
 		"fa-solid-900.woff"   = 'html/font-awesome/webfonts/fa-solid-900.woff',
 		"font-awesome.css"    = 'html/font-awesome/css/all.min.css',
 		"v4shim.css"          = 'html/font-awesome/css/v4-shims.min.css'
-	)*/
+	)
 
 /datum/asset/simple/blackedstone_class_menu_slop_layout
 	verify = FALSE
@@ -606,7 +606,7 @@ GLOBAL_LIST_EMPTY(asset_datums)
 	name = "chat"
 
 /datum/asset/spritesheet/goonchat/register()
-/*	InsertAll("emoji", 'icons/emoji.dmi')
+	InsertAll("emoji", 'icons/emoji.dmi')
 
 	// pre-loading all lanugage icons also helps to avoid meta
 	InsertAll("language", 'icons/misc/language.dmi')
@@ -617,31 +617,31 @@ GLOBAL_LIST_EMPTY(asset_datums)
 		if (icon != 'icons/misc/language.dmi')
 			var/icon_state = initial(L.icon_state)
 			Insert("language-[icon_state]", icon, icon_state=icon_state)
-*/
+
 	..()
 
 /datum/asset/simple/permissions
-/*	assets = list(
+	assets = list(
 		"padlock.png"	= 'html/padlock.png'
-	)*/
+	)
 
 /datum/asset/simple/notes
-/*	assets = list(
+	assets = list(
 		"high_button.png" = 'html/high_button.png',
 		"medium_button.png" = 'html/medium_button.png',
 		"minor_button.png" = 'html/minor_button.png',
 		"none_button.png" = 'html/none_button.png',
-	)*/
+	)
 
 /datum/asset/spritesheet/simple/achievements
 	name ="achievements"
-/*	assets = list(
+	assets = list(
 		"default" = 'icons/UI_Icons/Achievements/default.png'
-	)*/
+	)
 
 /datum/asset/spritesheet/simple/pills
 	name ="pills"
-/*	assets = list(
+	assets = list(
 		"pill1" = 'icons/UI_Icons/Pills/pill1.png',
 		"pill2" = 'icons/UI_Icons/Pills/pill2.png',
 		"pill3" = 'icons/UI_Icons/Pills/pill3.png',
@@ -664,12 +664,12 @@ GLOBAL_LIST_EMPTY(asset_datums)
 		"pill20" = 'icons/UI_Icons/Pills/pill20.png',
 		"pill21" = 'icons/UI_Icons/Pills/pill21.png',
 		"pill22" = 'icons/UI_Icons/Pills/pill22.png',
-	)*/
+	)
 
 
 /datum/asset/spritesheet/simple/roulette
 	name = "roulette"
-/*	assets = list(
+	assets = list(
 		"black" = 'icons/UI_Icons/Roulette/black.png',
 		"red" = 'icons/UI_Icons/Roulette/red.png',
 		"odd" = 'icons/UI_Icons/Roulette/odd.png',
@@ -678,7 +678,7 @@ GLOBAL_LIST_EMPTY(asset_datums)
 		"high" = 'icons/UI_Icons/Roulette/19-36.png',
 		"nano" = 'icons/UI_Icons/Roulette/nano.png',
 		"zero" = 'icons/UI_Icons/Roulette/0.png'
-	)*/
+	)
 
 
 
@@ -694,8 +694,8 @@ GLOBAL_LIST_EMPTY(asset_datums)
 	name = "pipes"
 
 /datum/asset/spritesheet/pipes/register()
-/*	for (var/each in list('icons/obj/atmospherics/pipes/pipe_item.dmi', 'icons/obj/atmospherics/pipes/disposal.dmi', 'icons/obj/atmospherics/pipes/transit_tube.dmi', 'icons/obj/plumbing/fluid_ducts.dmi'))
-		InsertAll("", each, GLOB.alldirs)*/
+	for (var/each in list('icons/obj/atmospherics/pipes/pipe_item.dmi', 'icons/obj/atmospherics/pipes/disposal.dmi', 'icons/obj/atmospherics/pipes/transit_tube.dmi', 'icons/obj/plumbing/fluid_ducts.dmi'))
+		InsertAll("", each, GLOB.alldirs)
 	..()
 
 // Representative icons for each research design
@@ -703,7 +703,7 @@ GLOBAL_LIST_EMPTY(asset_datums)
 	name = "design"
 
 /datum/asset/spritesheet/research_designs/register()
-/*	for (var/path in subtypesof(/datum/design))
+	for (var/path in subtypesof(/datum/design))
 		var/datum/design/D = path
 
 		var/icon_file
@@ -754,14 +754,14 @@ GLOBAL_LIST_EMPTY(asset_datums)
 				if (keyboard && (keyboard in all_states))
 					I.Blend(icon(icon_file, keyboard, SOUTH), ICON_OVERLAY)
 
-		Insert(initial(D.id), I)*/
+		Insert(initial(D.id), I)
 	return ..()
 
 /datum/asset/spritesheet/vending
 	name = "vending"
 
 /datum/asset/spritesheet/vending/register()
-/*	for (var/k in GLOB.vending_products)
+	for (var/k in GLOB.vending_products)
 		var/atom/item = k
 		if (!ispath(item, /atom))
 			continue
@@ -788,13 +788,13 @@ GLOBAL_LIST_EMPTY(asset_datums)
 
 		var/imgid = replacetext(replacetext("[item]", "/obj/item/", ""), "/", "-")
 
-		Insert(imgid, I)*/
+		Insert(imgid, I)
 	return ..()
 
 /datum/asset/simple/genetics
-/*	assets = list(
+	assets = list(
 		"dna_discovered.gif"	= 'html/dna_discovered.gif',
 		"dna_undiscovered.gif"	= 'html/dna_undiscovered.gif',
 		"dna_extra.gif" 		= 'html/dna_extra.gif'
-	)*/
+	)
 	assets = null

@@ -687,6 +687,20 @@
 	},
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/indoors/shelter/woods/overgrownfort)
+"dW" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4;
+	layer = 2.8;
+	pixel_x = 8
+	},
+/obj/structure/fluff/traveltile/underdark{
+	aportalgoesto = "ffout7";
+	aportalid = "ffin7"
+	},
+/turf/open/floor/rogue/twig,
+/area/rogue/outdoors/woods{
+	first_time_text = "The Deepwoods"
+	})
 "dX" = (
 /obj/structure/spacevine,
 /turf/open/floor/rogue/cobblerock,
@@ -1124,6 +1138,15 @@
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
 	dir = 8
+	},
+/turf/open/floor/rogue/twig,
+/area/rogue/outdoors/woods{
+	first_time_text = "The Deepwoods"
+	})
+"gC" = (
+/obj/structure/fluff/traveltile/underdark{
+	aportalgoesto = "ffout6";
+	aportalid = "ffin6"
 	},
 /turf/open/floor/rogue/twig,
 /area/rogue/outdoors/woods{
@@ -3314,6 +3337,15 @@
 "tg" = (
 /obj/structure/fluff/statue/knight/interior,
 /turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/woods{
+	first_time_text = "The Deepwoods"
+	})
+"th" = (
+/obj/structure/fluff/traveltile/underdark{
+	aportalgoesto = "ffin9";
+	aportalid = "ffout9"
+	},
+/turf/open/floor/rogue/hexstone,
 /area/rogue/outdoors/woods{
 	first_time_text = "The Deepwoods"
 	})
@@ -6615,8 +6647,12 @@
 	name = "Wood elf Tribes"
 	})
 "Md" = (
-/obj/structure/portal,
-/turf/open/floor/rogue/hexstone,
+/obj/structure/fluff/railing/wood{
+	dir = 4;
+	layer = 2.8;
+	pixel_x = 8
+	},
+/turf/open/floor/rogue/twig,
 /area/rogue/outdoors/woods{
 	first_time_text = "The Deepwoods"
 	})
@@ -7844,6 +7880,19 @@
 /area/rogue/outdoors/woods{
 	first_time_text = "The Mountain Passe"
 	})
+"SY" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8;
+	pixel_x = -8
+	},
+/obj/structure/fluff/traveltile/underdark{
+	aportalgoesto = "ffout4";
+	aportalid = "ffin4"
+	},
+/turf/open/floor/rogue/twig,
+/area/rogue/outdoors/woods{
+	first_time_text = "The Deepwoods"
+	})
 "SZ" = (
 /obj/structure/fluff/railing/wood,
 /obj/machinery/light/rogue/firebowl/stump,
@@ -7924,6 +7973,15 @@
 /obj/machinery/light/rogue/firebowl/stump,
 /turf/open/floor/rogue/blocks/stone/stonepattern3,
 /area/rogue/indoors/shelter/town/dwarf)
+"Tx" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8;
+	pixel_x = -8
+	},
+/turf/open/floor/rogue/twig,
+/area/rogue/outdoors/woods{
+	first_time_text = "The Deepwoods"
+	})
 "TB" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/rogue/grass,
@@ -8102,6 +8160,15 @@
 	icon_state = "wooden_floor2"
 	},
 /area/rogue/under/cavewet/spidermines)
+"UO" = (
+/obj/structure/fluff/traveltile/underdark{
+	aportalgoesto = "ffin8";
+	aportalid = "ffout8"
+	},
+/turf/open/floor/rogue/hexstone,
+/area/rogue/outdoors/woods{
+	first_time_text = "The Deepwoods"
+	})
 "US" = (
 /obj/structure/flora/roguegrass/thorn_bush,
 /turf/open/water/swamp,
@@ -8494,6 +8561,15 @@
 	},
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/indoors/cave/underdark)
+"Xe" = (
+/obj/structure/fluff/traveltile/underdark{
+	aportalgoesto = "ffout5";
+	aportalid = "ffin5"
+	},
+/turf/open/floor/rogue/twig,
+/area/rogue/outdoors/woods{
+	first_time_text = "The Deepwoods"
+	})
 "Xg" = (
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/woods{
@@ -8853,6 +8929,15 @@
 "Zl" = (
 /turf/open/water/swamp/deep,
 /area/rogue/under/cavewet)
+"Zm" = (
+/obj/structure/fluff/traveltile/underdark{
+	aportalgoesto = "ffin10";
+	aportalid = "ffout10"
+	},
+/turf/open/floor/rogue/hexstone,
+/area/rogue/outdoors/woods{
+	first_time_text = "The Deepwoods"
+	})
 "Zq" = (
 /obj/structure/glowshroom{
 	icon_state = "glowshroom2"
@@ -54981,11 +55066,11 @@ IJ
 nk
 nk
 nk
-NI
-NI
-NI
-SD
-SD
+SY
+Tx
+Tx
+Tx
+Ng
 Ng
 Ng
 Lu
@@ -55114,10 +55199,10 @@ IJ
 nk
 nk
 nk
-NI
-NI
-NI
-PG
+Xe
+Nt
+Nt
+Nt
 Ng
 Lu
 Lu
@@ -55247,10 +55332,10 @@ IJ
 nk
 nk
 nk
-NI
-NI
-NI
-yE
+gC
+Nt
+Nt
+Nt
 Ng
 hF
 hF
@@ -55380,10 +55465,10 @@ IJ
 nk
 nk
 nk
-NI
-NI
-NI
-AN
+dW
+Md
+Md
+Md
 uB
 IN
 IN
@@ -55517,7 +55602,7 @@ NI
 NI
 NI
 AN
-uB
+xn
 IN
 IN
 IN
@@ -59413,7 +59498,7 @@ NI
 NI
 NI
 hF
-IJ
+Zs
 Zs
 Br
 Zs
@@ -59545,9 +59630,9 @@ NI
 NI
 NI
 NI
-uB
+Zs
+Zs
 AK
-Md
 AK
 AK
 XM
@@ -59678,8 +59763,8 @@ NI
 NI
 NI
 NI
-uB
-AK
+Zs
+UO
 AK
 AK
 AK
@@ -59811,8 +59896,8 @@ NI
 NI
 NI
 NI
-Ng
-AK
+Zs
+th
 AK
 AK
 AK
@@ -59944,8 +60029,8 @@ NI
 NI
 NI
 NI
-Ng
-AK
+Zs
+Zm
 AK
 AK
 AK
@@ -60078,7 +60163,7 @@ NI
 NI
 NI
 NI
-IJ
+Zs
 Zs
 Zs
 Br

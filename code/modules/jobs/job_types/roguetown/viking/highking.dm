@@ -57,8 +57,8 @@
 		H.mind.adjust_skillrank_up_to(/datum/skill/combat/firearms, 4, TRUE)
 		H.mind.adjust_skillrank_up_to(/datum/skill/craft/smelting, 4, TRUE)
 
-		H.change_stat("strength", 3)
-		H.change_stat("intelligence", 2)
+		H.change_stat("strength", 2)
+		H.change_stat("intelligence", 3)
 		H.change_stat("constitution", 2)
 		H.change_stat("speed", -1)
 		H.change_stat("endurance", -1)

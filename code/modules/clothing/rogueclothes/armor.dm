@@ -705,6 +705,7 @@
 	desc = "An extremely heavy set of armor in the Dwarven style."
 	icon_state = "dwarvenchestplate"
 	item_state = "dwarvenchestplate"
+	max_integrity = 700
 	body_parts_covered = CHEST|GROIN|VITALS|LEGS|ARMS
 	equip_delay_self = 80
 
